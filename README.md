@@ -14,9 +14,11 @@ navigate to project directory ./qa-test-hf-seleniumtest
 java1.8 is used for compilation
 
 run with mvn commands
-mvn clean
-mvn install
+mvn clean install
 mvn test
+after run verify emailable-report.html  target/surefire-reports to check which tests exec
+
+
 
 ## Package Info
 #### com.hellofresh.selenium.base
