@@ -67,7 +67,7 @@ public class OrderPage extends BaseSeleniumWebPageAction{
 
 		  
 		  
-		  Thread.sleep(5000);
+		  //Thread.sleep(5000);
 
 		
 		  wait.until(ExpectedConditions.visibilityOfElementLocated(submit));

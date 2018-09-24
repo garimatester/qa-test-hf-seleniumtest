@@ -11,12 +11,24 @@ slf4j-log4j12(logging)
 #### 
 navigate to project directory ./qa-test-hf-seleniumtest
 
+#### Prerequisites
 java1.8 is used for compilation
+chrome.app should be present in mac
+or chromne.exe in windows check paths in configurableData.json
+"MacChromeBinaryPath":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+"LinuxChromeBinaryPath":"/bin/google-chrome",
+"WindowsChromeBinaryPath":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+
+##Steps to run
 
 run with mvn commands
 mvn clean install
 mvn test
+## Reports
 after run verify emailable-report.html  target/surefire-reports to check which tests exec
+
+## screenShots
+for failed test check screenShot folder
 
 
 
