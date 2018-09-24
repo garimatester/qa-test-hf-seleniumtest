@@ -1,0 +1,31 @@
+{
+"browser":"chrome",
+"MacChromeBinaryPath":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+"LinuxChromeBinaryPath":"/bin/google-chrome",
+"WindowsChromeBinaryPath":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+"environment":"LIV",
+
+
+"listurl" : [{
+      "environment":"STG",
+      "baseurl":"http://automationpractice.com/index.php"
+       }, 
+		{ "environment":"LIV",
+      "baseurl":"http://automationpractice.com"    
+       }],
+
+  
+  
+  "listparam" : [{
+      "key":"FadedShortSleeve",
+      "environment":"",
+      "value":"//a[@title='Faded Short Sleeve T-shirts']/ancestor::li"
+       }]
+
+  
+
+
+
+
+}
+	

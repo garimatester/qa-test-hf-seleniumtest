@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test" parallel="methods">
+		<!-- <parameter name="testdatafile"
+			value="src/test/resources/configurableData.json" /> -->
+		<classes>
+			<class name="com.hellofresh.selenium.base.BaseSeleniumSetup" />
+			<class name="com.hellofresh.selenium.tests.SignInTest" />
+			<class name="com.hellofresh.selenium.tests.LogInTest" />
+			<class name="com.hellofresh.selenium.tests.CheckOutTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
