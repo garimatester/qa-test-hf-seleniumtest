@@ -182,7 +182,7 @@ public abstract class BaseSeleniumWebPageAction {
      */
     public void click(final WebDriver driver, final By buttonLocator) throws InterruptedException {
 
-        _wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(buttonLocator));
+       // _wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(buttonLocator));
         if (_wait.until(ExpectedConditions.elementToBeClickable(buttonLocator)).isSelected()) {
             _wait.until(ExpectedConditions.elementToBeClickable(buttonLocator)).click();
         } else {
