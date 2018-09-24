@@ -3,7 +3,7 @@
 "MacChromeBinaryPath":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
 "LinuxChromeBinaryPath":"/bin/google-chrome",
 "WindowsChromeBinaryPath":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-"environment":"LIV",
+"environment":"STG",
 
 
 "listurl" : [{

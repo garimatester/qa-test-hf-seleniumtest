@@ -11,13 +11,13 @@ public class CustomListener extends BaseSeleniumSetup implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		log.info("Test Start------"+result.getMethod().getMethodName());
+		//log.info("Test Start------"+result.getMethod().getMethodName());
 		
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		log.info("Test Passed-----"+result.getMethod().getMethodName());
+		//log.info("Test Passed-----"+result.getMethod().getMethodName());
 		
 	}
 
@@ -39,13 +39,13 @@ public class CustomListener extends BaseSeleniumSetup implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
-        log.info("Start Of Execution(TEST)->"+ context.getName());
+        //log.info("Start Of Execution(TEST)->"+ context.getName());
 		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-        log.info("End Of Execution(TEST)->"+ context.getName());
+        //log.info("End Of Execution(TEST)->"+ context.getName());
 		
 	}
 
